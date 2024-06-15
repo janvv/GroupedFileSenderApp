@@ -13,9 +13,6 @@
 		3DE95D252C0BB45B00AAE9BA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3DE95D242C0BB45B00AAE9BA /* Base */; };
 		3DE95D272C0BB45C00AAE9BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE95D262C0BB45C00AAE9BA /* Assets.xcassets */; };
 		3DE95D2A2C0BB45C00AAE9BA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3DE95D292C0BB45C00AAE9BA /* Base */; };
-		3DE95D352C0BB45C00AAE9BA /* notificationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE95D342C0BB45C00AAE9BA /* notificationTestTests.swift */; };
-		3DE95D3F2C0BB45C00AAE9BA /* notificationTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE95D3E2C0BB45C00AAE9BA /* notificationTestUITests.swift */; };
-		3DE95D412C0BB45C00AAE9BA /* notificationTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE95D402C0BB45C00AAE9BA /* notificationTestUITestsLaunchTests.swift */; };
 		3DE95D552C0BC6E100AAE9BA /* GroupFileObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE95D542C0BC6E100AAE9BA /* GroupFileObserver.swift */; };
 		3DE95D572C0BC9E000AAE9BA /* GroupFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE95D562C0BC9E000AAE9BA /* GroupFileHandler.swift */; };
 /* End PBXBuildFile section */
@@ -47,10 +44,7 @@
 		3DE95D292C0BB45C00AAE9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DE95D2B2C0BB45C00AAE9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DE95D302C0BB45C00AAE9BA /* GroupedFileSenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupedFileSenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DE95D342C0BB45C00AAE9BA /* notificationTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationTestTests.swift; sourceTree = "<group>"; };
 		3DE95D3A2C0BB45C00AAE9BA /* GroupedFileSenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupedFileSenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DE95D3E2C0BB45C00AAE9BA /* notificationTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationTestUITests.swift; sourceTree = "<group>"; };
-		3DE95D402C0BB45C00AAE9BA /* notificationTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3DE95D4E2C0BB71A00AAE9BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3DE95D532C0BBC9300AAE9BA /* notificationTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = notificationTest.entitlements; sourceTree = "<group>"; };
 		3DE95D542C0BC6E100AAE9BA /* GroupFileObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupFileObserver.swift; sourceTree = "<group>"; };
@@ -86,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				3DE95D1C2C0BB45B00AAE9BA /* notificationTest */,
-				3DE95D332C0BB45C00AAE9BA /* notificationTestTests */,
-				3DE95D3D2C0BB45C00AAE9BA /* notificationTestUITests */,
 				3DE95D1B2C0BB45B00AAE9BA /* Products */,
 				3DE95D4D2C0BB71A00AAE9BA /* Frameworks */,
 			);
@@ -118,23 +110,6 @@
 				3DE95D562C0BC9E000AAE9BA /* GroupFileHandler.swift */,
 			);
 			path = notificationTest;
-			sourceTree = "<group>";
-		};
-		3DE95D332C0BB45C00AAE9BA /* notificationTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				3DE95D342C0BB45C00AAE9BA /* notificationTestTests.swift */,
-			);
-			path = notificationTestTests;
-			sourceTree = "<group>";
-		};
-		3DE95D3D2C0BB45C00AAE9BA /* notificationTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3DE95D3E2C0BB45C00AAE9BA /* notificationTestUITests.swift */,
-				3DE95D402C0BB45C00AAE9BA /* notificationTestUITestsLaunchTests.swift */,
-			);
-			path = notificationTestUITests;
 			sourceTree = "<group>";
 		};
 		3DE95D4D2C0BB71A00AAE9BA /* Frameworks */ = {
@@ -291,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE95D352C0BB45C00AAE9BA /* notificationTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE95D3F2C0BB45C00AAE9BA /* notificationTestUITests.swift in Sources */,
-				3DE95D412C0BB45C00AAE9BA /* notificationTestUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
