@@ -16,6 +16,8 @@
 		3DE95D352C0BB45C00AAE9BA /* notificationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE95D342C0BB45C00AAE9BA /* notificationTestTests.swift */; };
 		3DE95D3F2C0BB45C00AAE9BA /* notificationTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE95D3E2C0BB45C00AAE9BA /* notificationTestUITests.swift */; };
 		3DE95D412C0BB45C00AAE9BA /* notificationTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE95D402C0BB45C00AAE9BA /* notificationTestUITestsLaunchTests.swift */; };
+		3DE95D552C0BC6E100AAE9BA /* GroupFileObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE95D542C0BC6E100AAE9BA /* GroupFileObserver.swift */; };
+		3DE95D572C0BC9E000AAE9BA /* GroupFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE95D562C0BC9E000AAE9BA /* GroupFileHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		3DE95D3A2C0BB45C00AAE9BA /* notificationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notificationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE95D3E2C0BB45C00AAE9BA /* notificationTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationTestUITests.swift; sourceTree = "<group>"; };
 		3DE95D402C0BB45C00AAE9BA /* notificationTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DE95D4E2C0BB71A00AAE9BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DE95D532C0BBC9300AAE9BA /* notificationTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = notificationTest.entitlements; sourceTree = "<group>"; };
+		3DE95D542C0BC6E100AAE9BA /* GroupFileObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupFileObserver.swift; sourceTree = "<group>"; };
+		3DE95D562C0BC9E000AAE9BA /* GroupFileHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFileHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 				3DE95D332C0BB45C00AAE9BA /* notificationTestTests */,
 				3DE95D3D2C0BB45C00AAE9BA /* notificationTestUITests */,
 				3DE95D1B2C0BB45B00AAE9BA /* Products */,
+				3DE95D4D2C0BB71A00AAE9BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +106,8 @@
 		3DE95D1C2C0BB45B00AAE9BA /* notificationTest */ = {
 			isa = PBXGroup;
 			children = (
+				3DE95D542C0BC6E100AAE9BA /* GroupFileObserver.swift */,
+				3DE95D532C0BBC9300AAE9BA /* notificationTest.entitlements */,
 				3DE95D1D2C0BB45B00AAE9BA /* AppDelegate.swift */,
 				3DE95D1F2C0BB45B00AAE9BA /* SceneDelegate.swift */,
 				3DE95D212C0BB45B00AAE9BA /* ViewController.swift */,
@@ -106,6 +115,7 @@
 				3DE95D262C0BB45C00AAE9BA /* Assets.xcassets */,
 				3DE95D282C0BB45C00AAE9BA /* LaunchScreen.storyboard */,
 				3DE95D2B2C0BB45C00AAE9BA /* Info.plist */,
+				3DE95D562C0BC9E000AAE9BA /* GroupFileHandler.swift */,
 			);
 			path = notificationTest;
 			sourceTree = "<group>";
@@ -125,6 +135,14 @@
 				3DE95D402C0BB45C00AAE9BA /* notificationTestUITestsLaunchTests.swift */,
 			);
 			path = notificationTestUITests;
+			sourceTree = "<group>";
+		};
+		3DE95D4D2C0BB71A00AAE9BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DE95D4E2C0BB71A00AAE9BA /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +208,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
@@ -258,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE95D572C0BC9E000AAE9BA /* GroupFileHandler.swift in Sources */,
 				3DE95D222C0BB45B00AAE9BA /* ViewController.swift in Sources */,
 				3DE95D1E2C0BB45B00AAE9BA /* AppDelegate.swift in Sources */,
 				3DE95D202C0BB45B00AAE9BA /* SceneDelegate.swift in Sources */,
+				3DE95D552C0BC6E100AAE9BA /* GroupFileObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,8 +463,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = notificationTest/notificationTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EREM5343TQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = notificationTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -449,6 +474,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,9 +482,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jw.notificationTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -467,8 +497,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = notificationTest/notificationTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EREM5343TQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = notificationTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -476,6 +508,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,9 +516,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jw.notificationTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
