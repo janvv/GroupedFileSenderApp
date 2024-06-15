@@ -2,8 +2,8 @@
 
 This repository provides two apps illustrating how to perform inter-process communicaiton using App Groups.
 
-GroupedFileSenderApp writes continuously fake glucose data to the `glucoseValues.txt` in the "group.kuq" group.
-GroupFileReceiverApp observes these changes in realtime. 
+* **GroupedFileSenderApp:** writes continuously fake glucose data to the `glucoseValues.txt` in the "group.kuq" group.
+* **GroupFileReceiverApp:** observes these changes in realtime. 
 
 ## Background
 iOS does not provide inter-app communication. Notificaiton Center notificaitons are not broadcasted. In MaCOSX DistributedNotificaitonCenter can be used to send notificaitons between processes. However, this is not available in iOS.
