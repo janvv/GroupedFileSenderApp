@@ -1,6 +1,6 @@
-# App Group File Communicaiton
+# IPC_USING_AppGroups
 
-This repository provides two apps illustrating how to perform inter-app communicaiton using App Groups.
+This repository provides two apps illustrating how to perform inter-process communicaiton using App Groups.
 
 GroupedFileSenderApp writes continuously fake glucose data to the `glucoseValues.txt` in the "group.kuq" group.
 GroupFileReceiverApp observes these changes in realtime. 
