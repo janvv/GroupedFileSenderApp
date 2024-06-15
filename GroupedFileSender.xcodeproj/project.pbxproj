@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3DE95D1A2C0BB45B00AAE9BA /* notificationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notificationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE95D1A2C0BB45B00AAE9BA /* GroupedFileSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupedFileSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE95D1D2C0BB45B00AAE9BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DE95D1F2C0BB45B00AAE9BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3DE95D212C0BB45B00AAE9BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,9 +46,9 @@
 		3DE95D262C0BB45C00AAE9BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DE95D292C0BB45C00AAE9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DE95D2B2C0BB45C00AAE9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DE95D302C0BB45C00AAE9BA /* notificationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notificationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE95D302C0BB45C00AAE9BA /* GroupedFileSenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupedFileSenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE95D342C0BB45C00AAE9BA /* notificationTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationTestTests.swift; sourceTree = "<group>"; };
-		3DE95D3A2C0BB45C00AAE9BA /* notificationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notificationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE95D3A2C0BB45C00AAE9BA /* GroupedFileSenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupedFileSenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE95D3E2C0BB45C00AAE9BA /* notificationTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationTestUITests.swift; sourceTree = "<group>"; };
 		3DE95D402C0BB45C00AAE9BA /* notificationTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3DE95D4E2C0BB71A00AAE9BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,9 +96,9 @@
 		3DE95D1B2C0BB45B00AAE9BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3DE95D1A2C0BB45B00AAE9BA /* notificationTest.app */,
-				3DE95D302C0BB45C00AAE9BA /* notificationTestTests.xctest */,
-				3DE95D3A2C0BB45C00AAE9BA /* notificationTestUITests.xctest */,
+				3DE95D1A2C0BB45B00AAE9BA /* GroupedFileSender.app */,
+				3DE95D302C0BB45C00AAE9BA /* GroupedFileSenderTests.xctest */,
+				3DE95D3A2C0BB45C00AAE9BA /* GroupedFileSenderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3DE95D192C0BB45B00AAE9BA /* notificationTest */ = {
+		3DE95D192C0BB45B00AAE9BA /* GroupedFileSender */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DE95D442C0BB45C00AAE9BA /* Build configuration list for PBXNativeTarget "notificationTest" */;
+			buildConfigurationList = 3DE95D442C0BB45C00AAE9BA /* Build configuration list for PBXNativeTarget "GroupedFileSender" */;
 			buildPhases = (
 				3DE95D162C0BB45B00AAE9BA /* Sources */,
 				3DE95D172C0BB45B00AAE9BA /* Frameworks */,
@@ -160,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = notificationTest;
+			name = GroupedFileSender;
 			productName = notificationTest;
-			productReference = 3DE95D1A2C0BB45B00AAE9BA /* notificationTest.app */;
+			productReference = 3DE95D1A2C0BB45B00AAE9BA /* GroupedFileSender.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3DE95D2F2C0BB45C00AAE9BA /* notificationTestTests */ = {
+		3DE95D2F2C0BB45C00AAE9BA /* GroupedFileSenderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DE95D472C0BB45C00AAE9BA /* Build configuration list for PBXNativeTarget "notificationTestTests" */;
+			buildConfigurationList = 3DE95D472C0BB45C00AAE9BA /* Build configuration list for PBXNativeTarget "GroupedFileSenderTests" */;
 			buildPhases = (
 				3DE95D2C2C0BB45C00AAE9BA /* Sources */,
 				3DE95D2D2C0BB45C00AAE9BA /* Frameworks */,
@@ -178,14 +178,14 @@
 			dependencies = (
 				3DE95D322C0BB45C00AAE9BA /* PBXTargetDependency */,
 			);
-			name = notificationTestTests;
+			name = GroupedFileSenderTests;
 			productName = notificationTestTests;
-			productReference = 3DE95D302C0BB45C00AAE9BA /* notificationTestTests.xctest */;
+			productReference = 3DE95D302C0BB45C00AAE9BA /* GroupedFileSenderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3DE95D392C0BB45C00AAE9BA /* notificationTestUITests */ = {
+		3DE95D392C0BB45C00AAE9BA /* GroupedFileSenderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DE95D4A2C0BB45C00AAE9BA /* Build configuration list for PBXNativeTarget "notificationTestUITests" */;
+			buildConfigurationList = 3DE95D4A2C0BB45C00AAE9BA /* Build configuration list for PBXNativeTarget "GroupedFileSenderUITests" */;
 			buildPhases = (
 				3DE95D362C0BB45C00AAE9BA /* Sources */,
 				3DE95D372C0BB45C00AAE9BA /* Frameworks */,
@@ -196,9 +196,9 @@
 			dependencies = (
 				3DE95D3C2C0BB45C00AAE9BA /* PBXTargetDependency */,
 			);
-			name = notificationTestUITests;
+			name = GroupedFileSenderUITests;
 			productName = notificationTestUITests;
-			productReference = 3DE95D3A2C0BB45C00AAE9BA /* notificationTestUITests.xctest */;
+			productReference = 3DE95D3A2C0BB45C00AAE9BA /* GroupedFileSenderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3DE95D152C0BB45B00AAE9BA /* Build configuration list for PBXProject "notificationTest" */;
+			buildConfigurationList = 3DE95D152C0BB45B00AAE9BA /* Build configuration list for PBXProject "GroupedFileSender" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -240,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3DE95D192C0BB45B00AAE9BA /* notificationTest */,
-				3DE95D2F2C0BB45C00AAE9BA /* notificationTestTests */,
-				3DE95D392C0BB45C00AAE9BA /* notificationTestUITests */,
+				3DE95D192C0BB45B00AAE9BA /* GroupedFileSender */,
+				3DE95D2F2C0BB45C00AAE9BA /* GroupedFileSenderTests */,
+				3DE95D392C0BB45C00AAE9BA /* GroupedFileSenderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -309,12 +309,12 @@
 /* Begin PBXTargetDependency section */
 		3DE95D322C0BB45C00AAE9BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3DE95D192C0BB45B00AAE9BA /* notificationTest */;
+			target = 3DE95D192C0BB45B00AAE9BA /* GroupedFileSender */;
 			targetProxy = 3DE95D312C0BB45C00AAE9BA /* PBXContainerItemProxy */;
 		};
 		3DE95D3C2C0BB45C00AAE9BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3DE95D192C0BB45B00AAE9BA /* notificationTest */;
+			target = 3DE95D192C0BB45B00AAE9BA /* GroupedFileSender */;
 			targetProxy = 3DE95D3B2C0BB45C00AAE9BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -541,7 +541,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/notificationTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/notificationTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroupedFileSender.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GroupedFileSender";
 			};
 			name = Debug;
 		};
@@ -560,7 +560,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/notificationTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/notificationTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroupedFileSender.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GroupedFileSender";
 			};
 			name = Release;
 		};
@@ -601,7 +601,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DE95D152C0BB45B00AAE9BA /* Build configuration list for PBXProject "notificationTest" */ = {
+		3DE95D152C0BB45B00AAE9BA /* Build configuration list for PBXProject "GroupedFileSender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DE95D422C0BB45C00AAE9BA /* Debug */,
@@ -610,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DE95D442C0BB45C00AAE9BA /* Build configuration list for PBXNativeTarget "notificationTest" */ = {
+		3DE95D442C0BB45C00AAE9BA /* Build configuration list for PBXNativeTarget "GroupedFileSender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DE95D452C0BB45C00AAE9BA /* Debug */,
@@ -619,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DE95D472C0BB45C00AAE9BA /* Build configuration list for PBXNativeTarget "notificationTestTests" */ = {
+		3DE95D472C0BB45C00AAE9BA /* Build configuration list for PBXNativeTarget "GroupedFileSenderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DE95D482C0BB45C00AAE9BA /* Debug */,
@@ -628,7 +628,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DE95D4A2C0BB45C00AAE9BA /* Build configuration list for PBXNativeTarget "notificationTestUITests" */ = {
+		3DE95D4A2C0BB45C00AAE9BA /* Build configuration list for PBXNativeTarget "GroupedFileSenderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DE95D4B2C0BB45C00AAE9BA /* Debug */,
